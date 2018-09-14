@@ -1,0 +1,9 @@
+@import '_sidebar.css';
+@import '_main-content.css';
+
+.red  { background-color: palevioletred !important }
+.blue { background-color: lightblue !important }
+
+body, html, #app, .main-wrapper {
+    height: 100%;
+}
