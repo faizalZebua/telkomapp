@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import '_card.css';
 @import '_sidebar.css';
 @import '_main-content.css';
 
 .red  { background-color: palevioletred !important }
 .blue { background-color: lightblue !important }
 
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #59616e;
+}
+
 body, html, #app, .main-wrapper {
     height: 100%;
+}
+
+h6, h5, h4, h3, h2, h1, p {
+    margin: 0
+}
+
+.mb-20 {
+    margin-bottom: 20px
 }
